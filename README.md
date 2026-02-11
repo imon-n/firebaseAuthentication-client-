@@ -583,15 +583,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 # ===============================
 
 ## 📁 server structure
-
+```
 server/
 ├── config/db.js
 ├── controllers/user.controller.js
 ├── models/user.model.js
 ├── routes/user.routes.js
 ├── server.js
-
----
+```
 
 # 🔥 config/db.js
 
