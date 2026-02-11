@@ -31,7 +31,6 @@ src/
  ├── router.jsx
  ├── main.jsx
 ```
----
 
 # 🔥 firebase/firebase.init.js
 
@@ -571,11 +570,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ---
 
-# ===============================
 
 # 🔥 BACKEND (FULL WORKING CODE)
 
-# ===============================
 
 ## 📁 server structure
 ```
