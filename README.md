@@ -5,7 +5,6 @@
 ```
 
 # 🔥 CLIENT SIDE (FULL CODE)
-# ===============================
 
 ## 📁 Project Structure
 ```
