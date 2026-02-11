@@ -7,12 +7,8 @@
 ✔ Clean Professional Structure
 ✔ React Router v6.4+ (createBrowserRouter)
 ```
----
-
-# ===============================
 
 # 🔥 CLIENT SIDE (FULL CODE)
-
 # ===============================
 
 ## 📁 Project Structure
@@ -61,8 +57,6 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 ````
 
----
-
 # 🔥 context/AuthContext.jsx
 
 ```js
@@ -70,8 +64,6 @@ import { createContext } from "react";
 
 export const AuthContext = createContext(null);
 ```
-
----
 
 # 🔥 context/AuthProvider.jsx
 
@@ -148,10 +140,7 @@ const AuthProvider = ({ children }) => {
 export default AuthProvider;
 ```
 
----
-
 # 🔥 hooks/useAuth.js
-
 ```js
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
@@ -163,10 +152,7 @@ const useAuth = () => {
 export default useAuth;
 ```
 
----
-
 # 🔥 hooks/useAxios.js
-
 ```js
 import axios from "axios";
 
@@ -180,8 +166,6 @@ const useAxios = () => {
 
 export default useAxios;
 ```
-
----
 
 # 🔥 hooks/useUserRole.js
 
@@ -227,8 +211,6 @@ const useUserRole = () => {
 export default useUserRole;
 ```
 
----
-
 # 🔥 routes/PrivateRoute.jsx
 
 ```js
@@ -250,8 +232,6 @@ const PrivateRoute = ({ children }) => {
 
 export default PrivateRoute;
 ```
-
----
 
 # 🔥 routes/AdminRoute.jsx
 
@@ -277,8 +257,6 @@ const AdminRoute = ({ children }) => {
 export default AdminRoute;
 ```
 
----
-
 # 🔥 routes/TutorRoutes.jsx
 
 ```js
@@ -302,8 +280,6 @@ const TutorRoutes = ({ children }) => {
 
 export default TutorRoutes;
 ```
-
----
 
 # 🔥 pages/Home.jsx
 
@@ -339,8 +315,6 @@ const Home = () => {
 export default Home;
 ```
 
----
-
 # 🔥 pages/Dashboard.jsx
 
 ```js
@@ -364,8 +338,6 @@ const Dashboard = () => {
 export default Dashboard;
 ```
 
----
-
 # 🔥 pages/ErrorPage.jsx
 
 ```js
@@ -379,8 +351,6 @@ const ErrorPage = () => {
 
 export default ErrorPage;
 ```
-
----
 
 # 🔥 pages/register/Register.jsx
 
@@ -446,8 +416,6 @@ const Register = () => {
 
 export default Register;
 ```
-
----
 
 # 🔥 pages/login/Login.jsx
 
@@ -528,8 +496,6 @@ const Login = () => {
 export default Login;
 ```
 
----
-
 # 🔥 router.jsx
 
 ```js
@@ -590,8 +556,6 @@ export default router;
 
 ```
 
----
-
 # 🔥 main.jsx
 
 ```js
@@ -650,8 +614,6 @@ const getDB = () => db;
 module.exports = { connectDB, getDB };
 ```
 
----
-
 # 🔥 models/user.model.js
 
 ```js
@@ -663,8 +625,6 @@ const userCollection = () => {
 
 module.exports = userCollection;
 ```
-
----
 
 # 🔥 controllers/user.controller.js
 
@@ -717,8 +677,6 @@ exports.getUserRole = async (req, res) => {
 };
 ```
 
----
-
 # 🔥 routes/user.routes.js
 
 ```js
@@ -737,8 +695,6 @@ router.get("/role/:email", getUserRole);
 
 module.exports = router;
 ```
-
----
 
 # 🔥 server.js
 
