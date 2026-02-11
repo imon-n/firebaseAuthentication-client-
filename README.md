@@ -1,4 +1,4 @@
-````
+
 ✔ Firebase Auth
 ✔ MongoDB User Store
 ✔ Role Based Routing
@@ -541,6 +541,7 @@ import Dashboard from "./pages/Dashboard";
 import ErrorPage from "./pages/ErrorPage";
 import PrivateRoute from "./routes/PrivateRoute";
 import AdminRoute from "./routes/AdminRoute";
+import TutorRoutes from "./routes/TutorRoutes";
 
 const router = createBrowserRouter([
   {
@@ -572,12 +573,21 @@ const router = createBrowserRouter([
     ),
   },
   {
+    path: "/tutor",
+    element: (
+      <TutorRoutes>
+        <h1>Tutor Only Page</h1>
+      </TutorRoutes>
+    ),
+  },
+  {
     path: "/error",
     element: <ErrorPage />,
   },
 ]);
 
 export default router;
+
 ```
 
 ---
