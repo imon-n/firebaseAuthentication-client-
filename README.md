@@ -1,4 +1,4 @@
-
+```
 ✔ Firebase Auth
 ✔ MongoDB User Store
 ✔ Role Based Routing
@@ -6,7 +6,7 @@
 ✔ No Cookies
 ✔ Clean Professional Structure
 ✔ React Router v6.4+ (createBrowserRouter)
-
+```
 ---
 
 # ===============================
