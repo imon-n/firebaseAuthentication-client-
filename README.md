@@ -1,11 +1,7 @@
+# Firebase Authentication with Clean Professional Structure
 ```
-✔ Firebase Auth
 ✔ MongoDB User Store
 ✔ Role Based Routing
-✔ No JWT
-✔ No Cookies
-✔ Clean Professional Structure
-✔ React Router v6.4+ (createBrowserRouter)
 ```
 
 # 🔥 CLIENT SIDE (FULL CODE)
