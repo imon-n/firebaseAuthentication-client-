@@ -16,7 +16,7 @@
 # ===============================
 
 ## 📁 Project Structure
-
+```
 src/
  ├── firebase/
  │     firebase.init.js
@@ -39,7 +39,7 @@ src/
  │     register/Register.jsx
  ├── router.jsx
  ├── main.jsx
-
+```
 ---
 
 # 🔥 firebase/firebase.init.js
